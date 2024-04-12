@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #B35B5B;
+    color: rgb(250, 239, 239);
+    text-align: center;
+    padding: none;
+}
+
+.img-perfil{
+    width: 10%;
+    border-radius: 50%;
+}
+
+
+.img-eu{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+footer{
+    background-color: #B35B5B;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.img-icone{
+    width: 120%;
+}
+
+.img-whatsapp{
+    width: 100%;
+}
+
+.conteudo{
+    background-color: #ffffff;
+    padding: 1em !important;
+    margin-top: 2em !important;
+    border-radius: 10px;
+    width: 100%;
+}
+
+a{
+    text-decoration: none !important;
+    color: rgb(100, 29, 29);
+}
+
+.principal{
+    text-align: center !important;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    margin-top: 8% !important;
+    margin-bottom: 15% !important;
+}
+
+.img-icone{
+    width: 50% !important;
+}
+
+.txt-icone{
+    font-size: 250% !important;
+}
+
+@media screen and (max-width: 768px){
+    .img-icone{
+        width: 250% !important;
+    }
+
+    .txt-icone{
+        font-size: 200% !important;
+    }
+
+    .conteudo{
+        background-color: white !important;
+        padding: 1em !important;
+        margin-top: 2em !important;
+        border-radius: 10px !important;
+        width: 130% !important;
+    }
+
+    .principal{
+        text-align: center;
+        margin-left: 10% !important;
+        margin-right: 25% !important;
+        margin-top: 1% !important;
+        margin-bottom: 50% !important;
+    }
+
+    .img-perfil{
+        width: 30% !important;
+        border-radius: 50% !important;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) { 
+
+    .img-icone{
+        width: 100% !important;
+    }
+ }
